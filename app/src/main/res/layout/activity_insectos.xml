@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insectos">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Titulo1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:background="@color/primary"
+                android:text="Escorpion Dorado del Nilo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/Imagen1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/escorpion"
+                android:scaleType="fitXY"
+                tools:srcCompat="@drawable/escorpion" />
+
+            <TextView
+                android:id="@+id/Descripcion1"
+                android:layout_width="388dp"
+                android:layout_height="128dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Se llama escorpiones o alacranes a un orden de aproximadamente 1.400 especies diferentes de arácnido, provisto de un par de apéndices frontales en forma de tenaza y de una cola terminada en un aguijón venenoso. Es uno de los mayores depredadores del mundo de los artrópodos."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Tamaño1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tamaño Aproximado: 3-4cm" />
+
+            <TextView
+                android:id="@+id/Precio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio(Unidad): 600MXN" />
+
+            <ImageButton
+                android:id="@+id/Comprar1"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:background="@android:color/system_accent1_0"
+                app:srcCompat="@mipmap/ic_compra_foreground"
+                tools:targetApi="s" />
+
+
+            <TextView
+                android:id="@+id/Titulo2"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:background="@color/primary"
+                android:text="Escorpion Dorado del Nilo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/Imagen2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/escorpion"
+                android:scaleType="fitXY"
+                tools:srcCompat="@drawable/escorpion" />
+
+            <TextView
+                android:id="@+id/Descripcion2"
+                android:layout_width="388dp"
+                android:layout_height="128dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Se llama escorpiones o alacranes a un orden de aproximadamente 1.400 especies diferentes de arácnido, provisto de un par de apéndices frontales en forma de tenaza y de una cola terminada en un aguijón venenoso. Es uno de los mayores depredadores del mundo de los artrópodos."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Tamaño2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tamaño Aproximado: 3-4cm" />
+
+            <TextView
+                android:id="@+id/Precio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio(Unidad): 600MXN" />
+
+            <ImageButton
+                android:id="@+id/Comprar2"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:background="@android:color/system_accent1_0"
+                app:srcCompat="@mipmap/ic_compra_foreground"
+                tools:targetApi="s" />
+
+
+            <TextView
+                android:id="@+id/Titulo3"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:background="@color/primary"
+                android:text="Escorpion Dorado del Nilo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/Imagen3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/escorpion"
+                android:scaleType="fitXY"
+                tools:srcCompat="@drawable/escorpion" />
+
+            <TextView
+                android:id="@+id/Descripcion3"
+                android:layout_width="388dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Se llama escorpiones o alacranes a un orden de aproximadamente 1.400 especies diferentes de arácnido, provisto de un par de apéndices frontales en forma de tenaza y de una cola terminada en un aguijón venenoso. Es uno de los mayores depredadores del mundo de los artrópodos."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Tamaño3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tamaño Aproximado: 3-4cm" />
+
+            <TextView
+                android:id="@+id/Precio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio(Unidad): 600MXN" />
+
+            <ImageButton
+                android:id="@+id/Comprar3"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:background="@android:color/system_accent1_0"
+                app:srcCompat="@mipmap/ic_compra_foreground"
+                tools:targetApi="s" />
+
+
+            <TextView
+                android:id="@+id/Titulo4"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:background="@color/primary"
+                android:text="Escorpion Dorado del Nilo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/Imagen4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/escorpion"
+                android:scaleType="fitXY"
+                tools:srcCompat="@drawable/escorpion" />
+
+            <TextView
+                android:id="@+id/Descripcion4"
+                android:layout_width="388dp"
+                android:layout_height="128dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Se llama escorpiones o alacranes a un orden de aproximadamente 1.400 especies diferentes de arácnido, provisto de un par de apéndices frontales en forma de tenaza y de una cola terminada en un aguijón venenoso. Es uno de los mayores depredadores del mundo de los artrópodos."
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Tamaño4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tamaño Aproximado: 3-4cm" />
+
+            <TextView
+                android:id="@+id/Precio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Precio(Unidad): 600MXN" />
+
+            <ImageButton
+                android:id="@+id/Comprar4"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:background="@android:color/system_accent1_0"
+                app:srcCompat="@mipmap/ic_compra_foreground"
+                tools:targetApi="s" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewAraña"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Sección de Arañas"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                app:srcCompat="@drawable/tarantula_mexicana" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@android:color/background_light"
+                android:text="Variedad de Arañas nacionales y extranjeras.\nSon animales solitarios posiblemente como tu.\n¡Cuidalos bien!" />
+
+            <Button
+                android:id="@+id/imageButtonAraña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:text="Dar un Vistazo" />
+
+            <TextView
+                android:id="@+id/textViewEscorpion"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Sección de Escorpiones"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                app:srcCompat="@drawable/escorpion" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@android:color/background_light"
+                android:text="Algunos escopriones forman parte de los 10 animales mas peligrosos del mundo." />
+
+            <Button
+                android:id="@+id/imageButtonEscorpion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dar un Vistazo" />
+
+            <TextView
+                android:id="@+id/textViewOtros"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Sección de otros Insectos"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/mantis" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Cada vez existen más animales exóticos como mascota en los hogares.\nAqui no es la excepcion" />
+
+            <Button
+                android:id="@+id/imageButtonOtros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dar un Vistazo" />
+
+            <TextView
+                android:id="@+id/textVievComida"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Alimento Vivo"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="169dp"
+                app:srcCompat="@drawable/gusano" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="¡Alimento 100% de calidad para tus mascotas!" />
+
+            <Button
+                android:id="@+id/imageButtonComida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dar un Vistazo" />
+
+            <TextView
+                android:id="@+id/textViewExtras"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Accesorios"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                app:srcCompat="@drawable/terrario" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tenemos lo ideal para tu nueva mascota.\nSatisfacción 100% garantizada" />
+
+            <Button
+                android:id="@+id/imageButtonExtras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dar un Vistazo" />
+
+            <TextView
+                android:id="@+id/textViewCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Perfil de Usuario"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                app:srcCompat="@mipmap/ic_perfil_foreground" />
+
+            <TextView
+                android:id="@+id/textViewNosotros"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/primary"
+                android:gravity="center"
+                android:text="Acerca de Nosotros"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonNosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                app:srcCompat="@mipmap/ic_nosotros_foreground" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
